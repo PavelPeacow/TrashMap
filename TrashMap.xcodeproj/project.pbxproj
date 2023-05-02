@@ -1,0 +1,581 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B523B66329F925A900604835 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = B523B66229F925A900604835 /* SnapKit */; };
+		B523B66529F9268900604835 /* TrashTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B523B66429F9268900604835 /* TrashTableViewCell.swift */; };
+		B523B66729F927C700604835 /* TrashTableViewCellModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B523B66629F927C700604835 /* TrashTableViewCellModel.swift */; };
+		B523B66929F92A6F00604835 /* MainTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B523B66829F92A6F00604835 /* MainTabBarViewController.swift */; };
+		B523B66D29F92C4A00604835 /* AddTrashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B523B66C29F92C4A00604835 /* AddTrashViewController.swift */; };
+		B523B67029F92D5000604835 /* UIMainTextfield.swift in Sources */ = {isa = PBXBuildFile; fileRef = B523B66F29F92D5000604835 /* UIMainTextfield.swift */; };
+		B523B67329F933D800604835 /* UIMainTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B523B67229F933D800604835 /* UIMainTextView.swift */; };
+		B523B67529F93E4300604835 /* UIMainButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B523B67429F93E4300604835 /* UIMainButton.swift */; };
+		B523B67729F94A1000604835 /* UIMediaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B523B67629F94A1000604835 /* UIMediaView.swift */; };
+		B523B67929FA66EF00604835 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B523B67829FA66EF00604835 /* LocationManager.swift */; };
+		B523B67C29FA6E0A00604835 /* TrashMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B523B67B29FA6E0A00604835 /* TrashMapViewController.swift */; };
+		B523B67F29FA703A00604835 /* SetMapRegion.swift in Sources */ = {isa = PBXBuildFile; fileRef = B523B67E29FA703A00604835 /* SetMapRegion.swift */; };
+		B523B68229FA71C100604835 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B523B68129FA71C100604835 /* GoogleService-Info.plist */; };
+		B523B68529FA726A00604835 /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = B523B68429FA726A00604835 /* FirebaseDatabase */; };
+		B523B68729FA726A00604835 /* FirebaseDatabaseSwift in Frameworks */ = {isa = PBXBuildFile; productRef = B523B68629FA726A00604835 /* FirebaseDatabaseSwift */; };
+		B523B68929FA726A00604835 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = B523B68829FA726A00604835 /* FirebaseFirestore */; };
+		B523B68B29FA726A00604835 /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = B523B68A29FA726A00604835 /* FirebaseFirestoreSwift */; };
+		B523B68D29FA739800604835 /* FirebaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B523B68C29FA739800604835 /* FirebaseManager.swift */; };
+		B523B69029FA9B2400604835 /* FirebaseNames.swift in Sources */ = {isa = PBXBuildFile; fileRef = B523B68F29FA9B2400604835 /* FirebaseNames.swift */; };
+		B523B69229FA9D8B00604835 /* Trash.swift in Sources */ = {isa = PBXBuildFile; fileRef = B523B69129FA9D8B00604835 /* Trash.swift */; };
+		B551F3B029F90BC500075231 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B551F3AF29F90BC500075231 /* AppDelegate.swift */; };
+		B551F3B229F90BC500075231 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B551F3B129F90BC500075231 /* SceneDelegate.swift */; };
+		B551F3B429F90BC500075231 /* TrashListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B551F3B329F90BC500075231 /* TrashListViewController.swift */; };
+		B551F3B929F90BC600075231 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B551F3B829F90BC600075231 /* Assets.xcassets */; };
+		B551F3BC29F90BC600075231 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B551F3BA29F90BC600075231 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B523B66429F9268900604835 /* TrashTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrashTableViewCell.swift; sourceTree = "<group>"; };
+		B523B66629F927C700604835 /* TrashTableViewCellModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrashTableViewCellModel.swift; sourceTree = "<group>"; };
+		B523B66829F92A6F00604835 /* MainTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarViewController.swift; sourceTree = "<group>"; };
+		B523B66C29F92C4A00604835 /* AddTrashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTrashViewController.swift; sourceTree = "<group>"; };
+		B523B66F29F92D5000604835 /* UIMainTextfield.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIMainTextfield.swift; sourceTree = "<group>"; };
+		B523B67229F933D800604835 /* UIMainTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIMainTextView.swift; sourceTree = "<group>"; };
+		B523B67429F93E4300604835 /* UIMainButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIMainButton.swift; sourceTree = "<group>"; };
+		B523B67629F94A1000604835 /* UIMediaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIMediaView.swift; sourceTree = "<group>"; };
+		B523B67829FA66EF00604835 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		B523B67B29FA6E0A00604835 /* TrashMapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrashMapViewController.swift; sourceTree = "<group>"; };
+		B523B67E29FA703A00604835 /* SetMapRegion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetMapRegion.swift; sourceTree = "<group>"; };
+		B523B68129FA71C100604835 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		B523B68C29FA739800604835 /* FirebaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseManager.swift; sourceTree = "<group>"; };
+		B523B68F29FA9B2400604835 /* FirebaseNames.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseNames.swift; sourceTree = "<group>"; };
+		B523B69129FA9D8B00604835 /* Trash.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trash.swift; sourceTree = "<group>"; };
+		B551F3AC29F90BC500075231 /* TrashMap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrashMap.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B551F3AF29F90BC500075231 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B551F3B129F90BC500075231 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B551F3B329F90BC500075231 /* TrashListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrashListViewController.swift; sourceTree = "<group>"; };
+		B551F3B829F90BC600075231 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B551F3BB29F90BC600075231 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B551F3BD29F90BC600075231 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B551F3A929F90BC500075231 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B523B68B29FA726A00604835 /* FirebaseFirestoreSwift in Frameworks */,
+				B523B68729FA726A00604835 /* FirebaseDatabaseSwift in Frameworks */,
+				B523B68929FA726A00604835 /* FirebaseFirestore in Frameworks */,
+				B523B68529FA726A00604835 /* FirebaseDatabase in Frameworks */,
+				B523B66329F925A900604835 /* SnapKit in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B523B66A29F92B7700604835 /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				B523B66829F92A6F00604835 /* MainTabBarViewController.swift */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
+		B523B66B29F92B7E00604835 /* ListModule */ = {
+			isa = PBXGroup;
+			children = (
+				B551F3B329F90BC500075231 /* TrashListViewController.swift */,
+				B523B66429F9268900604835 /* TrashTableViewCell.swift */,
+				B523B66629F927C700604835 /* TrashTableViewCellModel.swift */,
+				B523B66E29F92C5E00604835 /* AddTrash */,
+			);
+			path = ListModule;
+			sourceTree = "<group>";
+		};
+		B523B66E29F92C5E00604835 /* AddTrash */ = {
+			isa = PBXGroup;
+			children = (
+				B523B66C29F92C4A00604835 /* AddTrashViewController.swift */,
+			);
+			path = AddTrash;
+			sourceTree = "<group>";
+		};
+		B523B67129F92D9600604835 /* Subclass */ = {
+			isa = PBXGroup;
+			children = (
+				B523B66F29F92D5000604835 /* UIMainTextfield.swift */,
+				B523B67229F933D800604835 /* UIMainTextView.swift */,
+				B523B67429F93E4300604835 /* UIMainButton.swift */,
+				B523B67629F94A1000604835 /* UIMediaView.swift */,
+			);
+			path = Subclass;
+			sourceTree = "<group>";
+		};
+		B523B67A29FA66F200604835 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				B523B67829FA66EF00604835 /* LocationManager.swift */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		B523B67D29FA6E0E00604835 /* MapModule */ = {
+			isa = PBXGroup;
+			children = (
+				B523B67B29FA6E0A00604835 /* TrashMapViewController.swift */,
+			);
+			path = MapModule;
+			sourceTree = "<group>";
+		};
+		B523B68029FA703D00604835 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				B523B67E29FA703A00604835 /* SetMapRegion.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		B523B68E29FA9B0600604835 /* Firebase */ = {
+			isa = PBXGroup;
+			children = (
+				B523B68C29FA739800604835 /* FirebaseManager.swift */,
+				B523B68F29FA9B2400604835 /* FirebaseNames.swift */,
+			);
+			path = Firebase;
+			sourceTree = "<group>";
+		};
+		B523B69329FA9D8D00604835 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B523B69129FA9D8B00604835 /* Trash.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B551F3A329F90BC500075231 = {
+			isa = PBXGroup;
+			children = (
+				B551F3AE29F90BC500075231 /* TrashMap */,
+				B551F3AD29F90BC500075231 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B551F3AD29F90BC500075231 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B551F3AC29F90BC500075231 /* TrashMap.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B551F3AE29F90BC500075231 /* TrashMap */ = {
+			isa = PBXGroup;
+			children = (
+				B551F3C729F9214B00075231 /* App */,
+				B523B67129F92D9600604835 /* Subclass */,
+				B523B69329FA9D8D00604835 /* Model */,
+				B523B68E29FA9B0600604835 /* Firebase */,
+				B523B68029FA703D00604835 /* Helper */,
+				B523B67A29FA66F200604835 /* Manager */,
+				B551F3C529F9213B00075231 /* Main */,
+				B551F3C629F9214100075231 /* Resoursec */,
+			);
+			path = TrashMap;
+			sourceTree = "<group>";
+		};
+		B551F3C529F9213B00075231 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				B523B66A29F92B7700604835 /* TabBar */,
+				B523B66B29F92B7E00604835 /* ListModule */,
+				B523B67D29FA6E0E00604835 /* MapModule */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		B551F3C629F9214100075231 /* Resoursec */ = {
+			isa = PBXGroup;
+			children = (
+				B551F3B829F90BC600075231 /* Assets.xcassets */,
+			);
+			path = Resoursec;
+			sourceTree = "<group>";
+		};
+		B551F3C729F9214B00075231 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				B551F3AF29F90BC500075231 /* AppDelegate.swift */,
+				B551F3B129F90BC500075231 /* SceneDelegate.swift */,
+				B551F3BA29F90BC600075231 /* LaunchScreen.storyboard */,
+				B551F3BD29F90BC600075231 /* Info.plist */,
+				B523B68129FA71C100604835 /* GoogleService-Info.plist */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B551F3AB29F90BC500075231 /* TrashMap */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B551F3C029F90BC600075231 /* Build configuration list for PBXNativeTarget "TrashMap" */;
+			buildPhases = (
+				B551F3A829F90BC500075231 /* Sources */,
+				B551F3A929F90BC500075231 /* Frameworks */,
+				B551F3AA29F90BC500075231 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TrashMap;
+			packageProductDependencies = (
+				B523B66229F925A900604835 /* SnapKit */,
+				B523B68429FA726A00604835 /* FirebaseDatabase */,
+				B523B68629FA726A00604835 /* FirebaseDatabaseSwift */,
+				B523B68829FA726A00604835 /* FirebaseFirestore */,
+				B523B68A29FA726A00604835 /* FirebaseFirestoreSwift */,
+			);
+			productName = TrashMap;
+			productReference = B551F3AC29F90BC500075231 /* TrashMap.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B551F3A429F90BC500075231 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					B551F3AB29F90BC500075231 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+				};
+			};
+			buildConfigurationList = B551F3A729F90BC500075231 /* Build configuration list for PBXProject "TrashMap" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B551F3A329F90BC500075231;
+			packageReferences = (
+				B523B66129F925A900604835 /* XCRemoteSwiftPackageReference "SnapKit" */,
+				B523B68329FA726A00604835 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			productRefGroup = B551F3AD29F90BC500075231 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B551F3AB29F90BC500075231 /* TrashMap */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B551F3AA29F90BC500075231 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B551F3BC29F90BC600075231 /* LaunchScreen.storyboard in Resources */,
+				B523B68229FA71C100604835 /* GoogleService-Info.plist in Resources */,
+				B551F3B929F90BC600075231 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B551F3A829F90BC500075231 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B523B67C29FA6E0A00604835 /* TrashMapViewController.swift in Sources */,
+				B523B67F29FA703A00604835 /* SetMapRegion.swift in Sources */,
+				B523B67329F933D800604835 /* UIMainTextView.swift in Sources */,
+				B523B66529F9268900604835 /* TrashTableViewCell.swift in Sources */,
+				B523B67529F93E4300604835 /* UIMainButton.swift in Sources */,
+				B523B66729F927C700604835 /* TrashTableViewCellModel.swift in Sources */,
+				B551F3B429F90BC500075231 /* TrashListViewController.swift in Sources */,
+				B523B69229FA9D8B00604835 /* Trash.swift in Sources */,
+				B523B66929F92A6F00604835 /* MainTabBarViewController.swift in Sources */,
+				B523B67029F92D5000604835 /* UIMainTextfield.swift in Sources */,
+				B523B69029FA9B2400604835 /* FirebaseNames.swift in Sources */,
+				B523B67729F94A1000604835 /* UIMediaView.swift in Sources */,
+				B523B67929FA66EF00604835 /* LocationManager.swift in Sources */,
+				B523B66D29F92C4A00604835 /* AddTrashViewController.swift in Sources */,
+				B523B68D29FA739800604835 /* FirebaseManager.swift in Sources */,
+				B551F3B029F90BC500075231 /* AppDelegate.swift in Sources */,
+				B551F3B229F90BC500075231 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B551F3BA29F90BC600075231 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B551F3BB29F90BC600075231 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B551F3BE29F90BC600075231 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B551F3BF29F90BC600075231 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B551F3C129F90BC600075231 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V352R4M2J4;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TrashMap/App/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Дайте доступ к камере!";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Дайте доступ к карте!";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Дайте доступ к камере!";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Дайте доступ к микро!";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = pavel.TrashMap;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B551F3C229F90BC600075231 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V352R4M2J4;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TrashMap/App/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Дайте доступ к камере!";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Дайте доступ к карте!";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Дайте доступ к камере!";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Дайте доступ к микро!";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = pavel.TrashMap;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B551F3A729F90BC500075231 /* Build configuration list for PBXProject "TrashMap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B551F3BE29F90BC600075231 /* Debug */,
+				B551F3BF29F90BC600075231 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B551F3C029F90BC600075231 /* Build configuration list for PBXNativeTarget "TrashMap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B551F3C129F90BC600075231 /* Debug */,
+				B551F3C229F90BC600075231 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		B523B66129F925A900604835 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit";
+			requirement = {
+				kind = upToNextMinorVersion;
+				minimumVersion = 5.6.0;
+			};
+		};
+		B523B68329FA726A00604835 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		B523B66229F925A900604835 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B523B66129F925A900604835 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+		B523B68429FA726A00604835 /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B523B68329FA726A00604835 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+		B523B68629FA726A00604835 /* FirebaseDatabaseSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B523B68329FA726A00604835 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabaseSwift;
+		};
+		B523B68829FA726A00604835 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B523B68329FA726A00604835 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		B523B68A29FA726A00604835 /* FirebaseFirestoreSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B523B68329FA726A00604835 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestoreSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = B551F3A429F90BC500075231 /* Project object */;
+}
